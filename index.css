@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+    height: 40000px;
+}
+body {
+    background: white;
+}
+.firstnav{
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    box-shadow: 0 6px 50px rgba(0,0,0,0.16); 
+    margin-bottom: 0px;
+    position:fixed;
+}
+#solarlogo{
+    height: 60px ;
+    float: left;
+    margin-left: 40px;
+}
+.search{
+ width: 828px;
+ height:50px;
+ display: flex;
+ justify-content:center;  
+}
+.search select ,input ,button {
+    border: 0.5px solid #ADADAD;
+    border-left: none;
+    border-right: none;
+
+}
+.search select {
+    width: 10%;
+    height: 100%;
+    padding-left: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    border: 0.5px solid #ADADAD;
+}
+
+/*.search select option{
+ 
+}*/
+.search input{
+    width: 50%;
+    height: 100%;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #ADADAD;
+
+}
+
+.search button{
+    width: 20%;
+    height: 100%;
+    background-color: #1682C5;
+    border: none;
+    font-size: 21px;
+    color: white;
+}
+#cart-logo{
+    width: 38px;
+    height: 40px;
+    margin-right: 20px;
+    
+    
+}
+.login-sign{
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin-right: 30px;
+    
+}
+#user-logo{
+    width: 26px;
+    height: 28px;
+    margin-right: 3px;
+}
+.login-sign ul {
+    padding-top: 2px;
+}
+.login-sign ul li  {
+    
+    list-style-type: none;
+    display: inline;
+    margin-right: 2px;
+
+}
+.login-sign ul a {
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
+}
+/************************************************/
+.secnav{
+width: 100%;
+display: flex;
+padding-top: 90px;
+justify-content: center;
+
+
+}
+.nav-links{
+    background-color:#1682C5 ;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.nav-links li{
+list-style-type: none;
+font-size: 20px;
+padding: 10px;
+padding-right: 60px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    
+}
+/************************************************/
+.container{
+    background-image: url(Images/home-bg.png)
+}
