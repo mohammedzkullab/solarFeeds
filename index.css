@@ -8,7 +8,7 @@
 }
 html{
     font-family: 'Work Sans', sans-serif;
-    height: 40000px;
+    
 }
 body {
     background: white;
@@ -50,38 +50,38 @@ body {
     border: 0.5px solid #ADADAD;
 }
 
-/*.search select option{
- 
-}*/
 .search input{
     width: 50%;
     height: 100%;
     font-size: 16px;
     padding-left: 15px;
-    color: #ADADAD;
+   /* color: #ADADAD;*/
 
 }
 
-.search button{
+.search input[type="button"]{
     width: 20%;
     height: 100%;
     background-color: #1682C5;
     border: none;
     font-size: 21px;
     color: white;
+    padding: 5px;
+    
+}
+.search input[type="button"]:hover{
+     cursor: pointer;
 }
 #cart-logo{
     width: 38px;
     height: 40px;
-    margin-right: 20px;
-    
-    
+    margin-right: 20px;  
 }
 .login-sign{
     display: flex;
     justify-content: space-around;
     float: right;
-    margin-right: 30px;
+    margin-right: 20px;
     
 }
 #user-logo{
@@ -110,8 +110,6 @@ width: 100%;
 display: flex;
 padding-top: 90px;
 justify-content: center;
-
-
 }
 .nav-links{
     background-color:#1682C5 ;
@@ -130,7 +128,15 @@ padding-right: 60px;
     color: white;
     
 }
+.nav-links li a:hover{
+    font-weight: bold;
+}
 /************************************************/
 .container{
-    background-image: url(Images/home-bg.png)
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(Images/home-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
 }
+
