@@ -8,7 +8,7 @@
 }
 html{
     font-family: 'Work Sans', sans-serif;
-    
+    height: 4000px;
 }
 body {
     background: white;
@@ -131,12 +131,69 @@ padding-right: 60px;
 .nav-links li a:hover{
     font-weight: bold;
 }
-/************************************************/
+/***************sec nav*********************************/
 .container{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(Images/home-bg.png);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Images/home-bg.png);
     background-position: center;
     background-size: cover;
+    color: white;
     width: 100%;
-    height: 85vh;
+    height: 80vh;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
+.Left-p{
+    padding:15px;
+    padding-left: 20px;
+    line-height: 55px;
+}
+.Left-p p ,ul ,h3{
+    
+    padding-left: 30px;
+}
+.Left-p h3 {
+    font-size: large;
+    font-weight: 400;
+}
+.Left-p p {
+    line-height: 17px;
+    font-size: 13px;
+    margin: 10px;
+    margin-left:0px;
+    margin-top: auto;
+}
+.Left-p h1{
+    font-size: 50px;
+}
+.Left-p ul {
+    line-height: 35px;
+    
+}
+.Left-p ul li{
+    list-style:  inside url("images/Ellipse%202.png")
+}
+.Left-p li a{
+    text-decoration: none;
+    color: white;
+}
+.Left-p li a:hover{
+    font-weight: bold;
+}
+.Left-p input {
+    border: none;
+    width: 360px;
+    height: auto;
+    
+}
+#last-p{
+    font-size: 14px;
+    margin-top: 1em;
+}
+.right-p{
+    
+}
+    
 
