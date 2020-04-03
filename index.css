@@ -105,7 +105,7 @@ body {
     font-size: 20px;
     color: black;
 }
-/************************************************/
+/***************sec nav*********************************/
 .secnav{
 width: 100%;
 display: flex;
@@ -127,12 +127,11 @@ padding-right: 60px;
 .nav-links li a{
     text-decoration: none;
     color: white;
-    
 }
 .nav-links li a:hover{
     font-weight: bold;
 }
-/***************sec nav*********************************/
+/*********** first container*************************************/
 .container{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Images/home-bg.png);
     background-position: center;
@@ -203,6 +202,7 @@ padding-right: 60px;
 }
 .hap p {
     padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 .photos-cont{
@@ -257,7 +257,55 @@ padding-right: 60px;
     text-decoration: none;
     color: #F15A2B;
     font-weight: 600;
+    margin-top:10px ;
 }
-
+.last{
+    height: 100px;
+}
+.last input{
+    border: none;
+    width: 300px;
+    margin-left: 465px;
+}
+/*************************************************************/
+.browse{
+    margin-left: 90px;
+}
+.photo-cont2{
     
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 376px;
+    column-gap: 40px;
+ }
+ .prod1{
+     background-image:  linear-gradient(rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.226)), url("Images/top-ten-bg.png");
+     background-position: center;
+     background-size: cover;
+     color: white;
+     width: 85%;
+     height: 65vh;
+     padding: 40px;
+     
+      
+ }
+ .pr234{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 70px;
+     line-height: 30px;
+     align-items: ;
+ }
+ .prod2 img, .prod3 img , .prod4 img{
+     width: 100%;
+}
+.prod2 span, .prod3 span , .prod4 span {
+    line-height: 1px;
+}
+.prod2{
+    background-color: white;
+    box-shadow: #ADADAD;
+    
+}
 
