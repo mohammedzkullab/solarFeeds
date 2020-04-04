@@ -173,7 +173,7 @@ padding-right: 60px;
     
 }
 .Left-p ul li{
-    list-style:  inside url("images/Ellipse%202.png")
+    list-style:  inside url("images/Ellipse%202.png");
 }
 .Left-p li a{
     text-decoration: none;
@@ -183,19 +183,20 @@ padding-right: 60px;
     font-weight: bold;
 }
 .Left-p input {
-    border: none;
     width: 360px;
-    height: auto;
-    
+    margin-top: 20px;
 }
 #last-p{
     font-size: 14px;
     margin-top: 1em;
 }
-/****************************************************/
+/****************container 2 ************************************/
 
 .container2{
  padding: 40px;
+ background-image: url("Images/back-2.jpg");
+ background-position: center;
+ background-size: cover;
 }
 .hap{
     text-align: center;
@@ -236,7 +237,6 @@ padding-right: 60px;
 }
 .image2 {
     background-color: white;
-    border: 0.5px solid rgba(241,90,43,0.5) ;
     border-radius: 5px;
     box-shadow: 0px 35px 60px rgba(205,205,205,0.42);
     padding: 30px;
@@ -244,6 +244,9 @@ padding-right: 60px;
     justify-items: center;
     align-items: center;
     line-height: 35px;
+}
+.image2:hover{
+    border: 0.5px solid rgba(241,90,43,0.5) ;
 }
 .image2 img{
     height: 250px;
@@ -263,13 +266,22 @@ padding-right: 60px;
     height: 100px;
 }
 .last input{
-    border: none;
-    width: 300px;
-    margin-left: 465px;
+    margin-left: 520px;
+    margin-top: 40px;
 }
-/*************************************************************/
+/******************container 3*******************************************/
 .browse{
     margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.arrows input{
+    height: 17px;
+    border: none;
+    margin: 15px;
+ 
+
 }
 .photo-cont2{
     
@@ -286,26 +298,39 @@ padding-right: 60px;
      color: white;
      width: 85%;
      height: 65vh;
-     padding: 40px;
+     box-shadow: 0px 35px 60px rgba(205,205,205,0.42); 
      
-      
+     
  }
+.prod1 h1{
+    margin: 50px;
+}
  .pr234{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      column-gap: 70px;
      line-height: 30px;
-     align-items: ;
+     align-items: end;
+     margin-top: 30px;
  }
  .prod2 img, .prod3 img , .prod4 img{
      width: 100%;
 }
-.prod2 span, .prod3 span , .prod4 span {
-    line-height: 1px;
-}
-.prod2{
+.prod2 , .prod3 , .prod4{
     background-color: white;
-    box-shadow: #ADADAD;
-    
+    box-shadow: 0px 35px 60px rgba(205,205,205,0.42); 
+}
+.but{
+    width: 200px;
+    height: 45px;
+   background: linear-gradient(#F15A2B , #C02D00);
+   border-radius: 40px;
+   border: none;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+.but:hover{
+    cursor: pointer;
 }
 
