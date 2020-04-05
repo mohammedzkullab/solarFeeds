@@ -340,8 +340,6 @@ padding-right: 60px;
      line-height: 30px;
      align-items: end;
      margin: auto;
-
-     
  }
  .prod2 img, .prod3 img , .prod4 img{
      width: 100%;
@@ -367,7 +365,8 @@ padding-right: 60px;
 }
 /***********************************************************/
 .how-it{
-    display: inline-block;
+    justify-content: center;
+    
     
 }
 
