@@ -335,19 +335,22 @@ padding-right: 60px;
  .pr234{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
-     /*width: 95%;*/
      column-gap: 90px;
      line-height: 30px;
-     align-items: end;
      margin: auto;
+
  }
  .prod2 img, .prod3 img , .prod4 img{
-     width: 100%;
+    width: 100%;
+}
+.prod2 h4,p,h5 , .prod3 h4,span,h5 , .prod4 h4,span,h5 {
+    margin-left: 15px;
 }
 .prod2 , .prod3 , .prod4{
     background-color: white;
     box-shadow: 0px 35px 60px rgba(205,205,205,0.42); 
 }
+
 .but-arr{
     width: 30px;
     height: 30px;
@@ -364,9 +367,148 @@ padding-right: 60px;
     cursor: pointer;
 }
 /***********************************************************/
-.how-it{
-    justify-content: center;
+.how-it-H{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    line-height: 80px;
+}
+.container3{ /********************************************************/
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 0px 160px ;
+}
+.num-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
     
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(#1682C5 , #004C7A);
+}
+.we-support input:hover{
+    cursor: auto;
+}
+.we-design{/************************************************/
+    display: flex;
+}
+.we-design img{
+    width: 220px;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 0px 35px 60px rgba(205,205,205,0.42);
+    margin: 0px 10px 0px 0px ;
+}
+.we-design input{
+ margin: 80px 15px 0px 0px;
+}
+.we-design div{
+    padding-top: 100px;
+}
+.we-design div h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+.we-design div p {
+    width: 250px;
+    margin: 10px 0px 0px 0px;
+}
+.we-support{/************************************************/
+    display: flex;
     
+}
+.we-support img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 0px 35px 60px rgba(205,205,205,0.42);
+    margin: 5px 10px 0px 10px ;
+}
+.we-support input{
+    margin :80px 0px 0px 10px ;
+}
+
+.we-support div{
+    padding-top: 100px;
+}
+.we-support div h4{
+    font-size: 25px;
+    font-weight: 400;
+    direction: rtl;
+}
+.we-support div p {
+    direction: rtl;
+    width: 250px;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+}
+
+.logo-2-3{/*************************************************/
+    display:flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+.logo-2-3 input[value="2"]{
+    margin-left:8%;
+}
+.logo-2-3 input[value="3"]{
+    margin-right:-3%;
+}
+.contaner4{
+    display: flex;
+}
+.we-ship{/************************************************/
+    display: flex;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.we-ship img{
+    width: 200px;
+    height: 180px;
+    border-radius: 5%;
+    box-shadow: 0px 35px 60px rgba(205,205,205,0.42);
+    margin: 0px 15px 0px 50px ;
+}
+
+.we-ship div{
+    padding-top: 10px;
+}
+.we-ship div h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+.we-ship div p {
+    width: 250px;
+    margin: 15px 0px 0px 0px;
+}
+.you-install{/************************************************/
+    display: flex;
+    margin-top: 20px;
+}
+.you-install img{
+    width: 200px;
+    height: 180px;
+    border-radius: 5%;
+    box-shadow: 0px 35px 60px rgba(205,205,205,0.42);
+    margin: 0px 15px 0px 40px ;
+}
+
+.you-installdiv{
+    padding-top: 10px;
+}
+.you-install div h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+.you-install div p {
+    width: 250px;
+    margin: 15px 0px 0px 0px;
+}
+.assimble-cont{
+    width: 80%;
+    padding: 20px 20px 20px ;
+    /*margin: auto;*/
 }
 
