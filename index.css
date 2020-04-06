@@ -8,7 +8,7 @@
 }
 html{
     font-family: 'Work Sans', sans-serif;
-    height: 4000px;
+    height: 6000px;
 }
 body {
     background: white;
@@ -225,9 +225,20 @@ padding-right: 60px;
     width: 100%;
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 5% 30% 30% 30% 5%;
     justify-items: center;
     align-items: center;
+}
+.photos-cont input{
+    background: white;
+    color: #B3B3B3;
+    border: 0.5px solid #B3B3B3;
+    margin: 200px 10px;
+    margin-top: 200px;
+}
+.photos-cont input:hover{
+    color:#035485;
+    border: 0.5px solid #035485;
 }
 .image1{
     background-color: white;
@@ -511,4 +522,121 @@ padding-right: 60px;
     padding: 20px 20px 20px ;
     /*margin: auto;*/
 }
+/********************5th container****************************************/
+.what-clients{
+    text-align: center;
+    line-height: 40px;
+    margin-top: 90px;
+    letter-spacing: 3px;
+}
+.what-clients h1  {
+    font-size: 40px;
+}
+.container5{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4% 30% 30% 30% 4%;
+    grid-template-rows: repeat(2,230px);
+    padding:30px 0px;
+    margin: 30px 0px auto;
+    gap: 10px 12px;
+    
+    
+}
+.container5 input{
+    background: white;
+    color: #B3B3B3;
+    border: 0.5px solid #B3B3B3;
+    margin: 200px 10px;
+    margin-top: 200px;
+}
+.container5 input:hover{
+    color:#035485;
+    border: 0.5px solid #035485;
+}
+.client-el{
+    background: white;
+    width: 390px;
+    height: 220px;
+    font-size: 15px;
+    padding: 40px 5px 10px 0px;
+    box-shadow:  0px 35px 60px rgba(205,205,205,0.42);
+}
+.im{
+    display:grid;
+    grid-template-columns: 20% 30%;
+    margin: 40px 0px 10px 26px;
+    
+}
+.assimble-cont5{
+    background-image: url("images/back-cont5.jpg") ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
 
+}
+/*****************************************************************/
+.works-as{
+    margin: 30px;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 40px;
+}
+.works p {
+    margin-top: 10px;
+    margin-left: 0px;
+    
+}
+.works p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+.works p a:hover{
+color: #035485;
+
+}
+.works input{
+    margin-top: 30px;
+    margin-right: 90px;
+
+}
+.photos-cont4{
+    display: grid;
+    grid-template-areas: 
+    "divs imag1 imag2 imag5"
+    "bar imag3 imag4 imag5";
+    margin-left: 100px;}
+.photos-cont4 img{
+ width: 400px;
+ height: 300px;
+ 
+}
+#imag5{
+    width:400px;
+    height: 600px;
+}
+#bar{
+    width: 15px;
+    height: auto;
+    margin-top: 130px;
+}|
+.bottom-cont4{
+   display: flex; 
+   justify-content: space-between; 
+   width: 140%;
+   margin-left: 200px;
+}
+.bottom-cont4 a {
+    text-decoration: none;
+    color: #EA5425;
+    
+}
+.bottom-cont4 a:hover{
+    color: #035485;
+    font-weight: 700;
+}
