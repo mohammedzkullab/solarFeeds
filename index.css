@@ -8,7 +8,7 @@
 }
 html{
     font-family: 'Work Sans', sans-serif;
-    height: 6000px;
+    height: 5934px;
 }
 body {
     background: white;
@@ -610,33 +610,133 @@ color: #035485;
     grid-template-areas: 
     "divs imag1 imag2 imag5"
     "bar imag3 imag4 imag5";
-    margin-left: 100px;}
+    gap: 30px 30px;
+    margin-left: 40px;
+}
 .photos-cont4 img{
- width: 400px;
+ width: 300px;
  height: 300px;
- 
+ border-radius: 10px;
+ box-shadow:0px 35px 60px rgba(205,205,205,0.42) ;
 }
 #imag5{
     width:400px;
-    height: 600px;
+    /*height: 620px;*/
+    height: 100%;
 }
 #bar{
     width: 15px;
     height: auto;
-    margin-top: 130px;
-}|
+    margin-top: 180px;
+}
+#bar:hover{
+cursor: pointer;
+}
 .bottom-cont4{
    display: flex; 
    justify-content: space-between; 
-   width: 140%;
-   margin-left: 200px;
+   width: 159%;
+   margin-left: 93px;
+   margin-top: 30px;
 }
 .bottom-cont4 a {
     text-decoration: none;
     color: #EA5425;
-    
 }
 .bottom-cont4 a:hover{
     color: #035485;
     font-weight: 700;
 }
+/**************************************************************/
+.cont6-h{
+    padding: 10px;
+    padding-left: 50px;
+    margin: 10px 0px 20px 60px;
+}
+.cont6-h p {
+    width: 78%;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.cont6-photoes{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    column-gap: 60px;
+    margin: auto;
+    margin-left: 10%;
+}
+.cont6-photo-el{
+    margin: auto;
+    padding-top: 20px;
+   
+}
+.cont6-photo-el *{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.cont6-photo-el img {
+width: 140px;
+margin: 20px;
+margin-left: 38px;
+
+}
+.cont6-photo-el p{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.cont6-photo-el h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+/******************************************************************/
+.container7{
+margin-top: 100px;
+padding: 20px;
+background:#EEF4F5;
+}
+.container7 h1{
+    margin-top:20px;
+    text-align: center;
+}
+.cont7-logos{
+    display: grid;
+    grid-template-areas: 
+    "ima1 ima2 ima3 "
+    "ima4 ima5 ima6"
+    ;
+    width: 100%;
+    margin: 50px 0px 0px 90px;
+    padding: 20px;
+    gap: 40px 90px;
+}
+.cont7-logos img{
+    width: 180px;
+    margin: 20px ;
+}
+/******************************************************************/
+footer{
+    background-image: url("images/about-us-bg.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 350px;
+    padding-top: 70px;
+}
+footer p{
+    width: 83%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+}
+
+
