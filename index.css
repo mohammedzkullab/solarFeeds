@@ -273,6 +273,7 @@ padding-right: 60px;
 }
 .image2:hover{
     border: 0.5px solid rgba(241,90,43,0.5) ;
+    cursor: pointer;
 }
 .image2 img{
     height: 250px;
